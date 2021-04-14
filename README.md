@@ -15,7 +15,7 @@ android:name=".NotificationChannel" respectively
     
    ``` Intent activityIntent = new Intent(MainActivity.this, TestActivity.class);
     PendingIntent contentIntent = PendingIntent.getActivity(MainActivity.this,
-    0,activityIntent, 0); ```
+    0,activityIntent, 0);
 
                 Notification notification = new NotificationCompat.Builder(MainActivity.this, NotificationChannel.CHANNEL_ID)
                         //set icon
