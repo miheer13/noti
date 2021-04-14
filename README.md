@@ -46,5 +46,6 @@
                 PendingIntent contentIntent = PendingIntent.getActivity(MainActivity.this,
                         0,activityIntent, 0);
                         
-            and
-               .setContentIntent(contentIntent) from notification
+   and
+         
+         .setContentIntent(contentIntent) from notification
