@@ -5,7 +5,8 @@
        <uses-permission android:name="android.permission.VIBRATE"/>
        
 * and 
-android:name=".NotificationChannel" respectively
+       
+        android:name=".NotificationChannel" respectively
       
       
 
