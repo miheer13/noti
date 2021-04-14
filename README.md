@@ -5,17 +5,17 @@
        <uses-permission android:name="android.permission.VIBRATE"/>
        
 * and 
-
-code(android:name=".NotificationChannel") respectively
+android:name=".NotificationChannel" respectively
       
       
 
 * create NotificationChannel.java word to word
 
 * this is the code for displaying a notification
-    Intent activityIntent = new Intent(MainActivity.this, TestActivity.class);
-                PendingIntent contentIntent = PendingIntent.getActivity(MainActivity.this,
-                        0,activityIntent, 0);
+    
+   ' Intent activityIntent = new Intent(MainActivity.this, TestActivity.class);
+    PendingIntent contentIntent = PendingIntent.getActivity(MainActivity.this,
+    0,activityIntent, 0); '
 
                 Notification notification = new NotificationCompat.Builder(MainActivity.this, NotificationChannel.CHANNEL_ID)
                         //set icon
