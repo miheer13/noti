@@ -1,6 +1,14 @@
 # noti
 
-* check the manifest file n add <uses-permission android:name="android.permission.VIBRATE"/> and android:name=".NotificationChannel" respectively
+* check the manifest file n add 
+
+       <uses-permission android:name="android.permission.VIBRATE"/>
+       
+* and 
+
+code(android:name=".NotificationChannel") respectively
+      
+      
 
 * create NotificationChannel.java word to word
 
