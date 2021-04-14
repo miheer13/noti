@@ -32,6 +32,7 @@
 * TestActivity.class is just a palceholder if you want to open a activity when notification is clicked
 
 * if you dont want the notification to do nothing then you can remove :
+                
                 Intent activityIntent = new Intent(MainActivity.this, TestActivity.class);
                 PendingIntent contentIntent = PendingIntent.getActivity(MainActivity.this,
                         0,activityIntent, 0);
